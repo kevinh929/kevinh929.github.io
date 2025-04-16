@@ -1,3 +1,61 @@
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+#pageHeader h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 2px 2px 4px skyblue;
+}
+
 #navbar {
     background-color: #000000;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#navbar li {
+    list-style-type: none;
+    padding: 0;
+}
+
+#navbar a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: orange;
+    padding: 10px 20px;
+    display: block;
+    font-size: 1.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+#navbar a:hover {
+    background-color: #000000;
+    color: skyblue;
+    text-shadow: 2px 2px 4px orange;
+}
+
+#Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 auto;
 }

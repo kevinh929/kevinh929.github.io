@@ -31,6 +31,12 @@ hr{
     text-shadow: 2px 2px 4px skyblue;
 }
 
+nav{
+    padding: 1rem;
+    display: flex;
+    background-color: #000000c2;
+}
+
 #navbar ul {
     display: flex;
     justify-content: center;
@@ -112,4 +118,57 @@ hr{
     padding: 0.5rem 0;
     font-size: 1.6rem;
     color: orange;
+}
+
+.menuOffPage {
+    background-color: #000000c2;
+    height: 25vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.menuOffPage.active{
+    right: 0;
+}
+
+.menuIcon{
+    height: 50px;
+    width: 50px;
+    margin-right: auto;
+    position: relative;
+}
+
+.menuIcon span {
+    height: 5px;
+    width: 100%;
+    background-color: orange;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease;
+}
+.menuIcon span:nth-child(1) {
+    top: 25%;
+}
+.menuIcon span:nth-child(3) {
+    top: 75%;
+}
+.menuIcon.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.menuIcon.active span:nth-child(2) {
+    opacity: 0;
+}
+.menuIcon.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
 }

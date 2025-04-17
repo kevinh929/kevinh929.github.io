@@ -15,9 +15,8 @@ hr{
 }
 
 #pageContainer {
-    margin: 0 Auto;
     width: 80%;
-    background-color: #525252a6;
+    background-color: #000000c2;
 }
 
 #pageHeader h1 {

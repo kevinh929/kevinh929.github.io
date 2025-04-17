@@ -1,0 +1,11 @@
+#PortfolioArtifacts{
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.Artifact{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}

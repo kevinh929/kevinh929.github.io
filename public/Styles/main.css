@@ -24,10 +24,6 @@ hr{
     text-shadow: 2px 2px 4px skyblue;
 }
 
-#navbar {
-    background-color: #000000;
-}
-
 #navbar ul {
     display: flex;
     justify-content: center;
@@ -89,7 +85,6 @@ hr{
 
 #Temporary {
     text-align: center;
-    background-color: #000000;
 }
 
 #Temporary a{

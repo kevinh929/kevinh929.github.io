@@ -95,9 +95,13 @@ hr{
     background-color: #000000;
 }
 
-#temporary h2 h3{
+#YoutubeLink h2 {
     text-decoration: none;
+    font-size: 2.5rem;
     color: orange;
-    font-size: 1.8rem;
-    font-family: 'Courier New', Courier, monospace;
+}
+#email h3 {
+    text-decoration: none;
+    font-size: 2rem;
+    color: orange;
 }

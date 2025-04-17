@@ -6,12 +6,6 @@ body {
     line-height: 1.6;
 }
 
-hr{
-    border: 1px solid orange;
-    width: 50%;
-    margin: 2rem auto;
-}
-
 #pageHeader h1 {
     text-align: center;
     font-size: 3rem;
@@ -88,5 +82,11 @@ hr{
 
 #Temporary {
     text-align: center;
+    background-color: #000000;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
     background-color: #000000;
 }

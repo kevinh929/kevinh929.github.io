@@ -141,7 +141,8 @@ nav{
 .menuIcon{
     height: 50px;
     width: 50px;
-    position: relative;
+    position: fixed;
+    background-color: #000000c2;
 }
 
 .headerFix{

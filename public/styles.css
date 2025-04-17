@@ -88,5 +88,6 @@ body {
 .divider {
     width: 100%;
     height: 2px;
-    background-color: #000000;
+    color: #000000;
+    border-color: orange;
 }

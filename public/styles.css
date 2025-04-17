@@ -98,6 +98,11 @@ hr{
 #Temporary a{
     text-decoration: none;
 }
+#Temporary a:hover {
+    color: skyblue;
+    text-shadow: 2px 2px 4px orange;
+    text-decoration: underline;
+}
 
 #YoutubeLink h2 {
     padding: 0.5rem 0;

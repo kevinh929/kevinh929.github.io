@@ -6,6 +6,15 @@ body {
     line-height: 1.6;
 }
 
+hr{
+    border: 1px solid orange;
+    width: 50%;
+    margin: 2rem auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px skyblue;
+    background-color: #000000;
+}
+
 #pageHeader h1 {
     text-align: center;
     font-size: 3rem;
@@ -69,12 +78,14 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-shadow: 2px 2px 4px skyblue;
+    width: 65%;
+    margin: 1rem auto;
 }
 
 #descimg {
     display: block;
     margin: 0 auto;
-    width: 40%;
+    width: 25%;
     height: auto;
 }
 

@@ -7,9 +7,9 @@ body {
 }
 
 hr{
-    border: 1px solid orange;
+    text-align: center;
+    border: 2px dashed orange;
     width: 50%;
-    margin: 2rem auto;
     border-radius: 5px;
     box-shadow: 2px 2px 4px skyblue;
     background-color: #000000;

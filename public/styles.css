@@ -8,7 +8,7 @@ body {
 
 hr{
     border: 3px dashed orange;
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: 2px 2px 4px skyblue;
@@ -85,6 +85,7 @@ hr{
 #descimg {
     display: block;
     margin: 0 auto;
+    padding: 1rem 0;
     width: 25%;
     height: auto;
 }
@@ -92,4 +93,11 @@ hr{
 #Temporary {
     text-align: center;
     background-color: #000000;
+}
+
+#temporary a{
+    text-decoration: none;
+    color: orange;
+    font-size: 1.8rem;
+    font-family: 'Courier New', Courier, monospace;
 }

@@ -125,7 +125,7 @@ nav{
 
 .menuOffPage {
     background-color: #000000;
-    width: 100%;
+    width: 80%;
     position: fixed;
     top: -25%;
     display: flex;
@@ -152,7 +152,7 @@ nav{
 
 .menuIcon span {
     height: 5px;
-    width: 100%;
+    width: 75%;
     background-color: orange;
     border-radius: 25px;
     position: absolute;

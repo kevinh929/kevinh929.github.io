@@ -1,5 +1,4 @@
 body {
-    background-color: #000000;
     background-image: url('../images/orangecubicBG.jpg');
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -13,6 +12,10 @@ hr{
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: 2px 2px 4px skyblue;
+}
+
+#pageContainer {
+    background-color: #5252525b;
 }
 
 #pageHeader h1 {

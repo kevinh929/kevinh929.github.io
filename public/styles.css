@@ -95,13 +95,15 @@ hr{
     background-color: #000000;
 }
 
-#YoutubeLink h2 {
+#Temporary a{
     text-decoration: none;
+}
+
+#YoutubeLink h2 {
     font-size: 2.5rem;
     color: orange;
 }
 #email h3 {
-    text-decoration: none;
     font-size: 2rem;
     color: orange;
 }

@@ -96,15 +96,16 @@ hr{
 }
 
 #Temporary a{
-    padding: 0.5rem 0;
     text-decoration: none;
 }
 
 #YoutubeLink h2 {
+    padding: 0.5rem 0;
     font-size: 2rem;
     color: orange;
 }
 #email h3 {
+    padding: 0.5rem 0;
     font-size: 1.6rem;
     color: orange;
 }

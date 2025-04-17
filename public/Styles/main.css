@@ -15,6 +15,7 @@ hr{
 }
 
 #pageContainer {
+    margin: 0 Auto;
     width: 80%;
     background-color: #525252a6;
 }

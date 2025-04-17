@@ -15,7 +15,8 @@ hr{
 }
 
 #pageContainer {
-    background-color: #5252525b;
+    width: 80%;
+    background-color: #525252a6;
 }
 
 #pageHeader h1 {

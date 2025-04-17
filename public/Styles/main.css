@@ -1,9 +1,12 @@
+html{
+    max-height: 100%;
+    max-width: 100%;
+}
 body {
     background-image: url('../images/orangecubicBG.jpg');
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
-    line-height: 1.6;
 }
 
 hr{

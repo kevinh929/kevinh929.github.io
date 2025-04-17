@@ -13,7 +13,6 @@ hr{
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: 2px 2px 4px skyblue;
-    background-color: #000000;
 }
 
 #pageHeader h1 {
@@ -44,7 +43,6 @@ hr{
     text-decoration: none;
     display: flex;
     align-items: center;
-    background-color: #000000;
     color: orange;
     padding: 10px 20px;
     display: block;
@@ -56,14 +54,12 @@ hr{
 }
 
 #navbar a:hover {
-    background-color: #000000;
     color: skyblue;
     text-shadow: 2px 2px 4px orange;
 }
 
 #Content {
     text-align: center;
-    background-color: #000000;
 }
 
 #Content h2 {

@@ -10,6 +10,7 @@
 }
 
 .TSBGallery.active {
+    display: block;
     opacity: 1;
     transform: translate(0);
 }

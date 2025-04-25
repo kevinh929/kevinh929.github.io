@@ -14,6 +14,9 @@
     opacity: 1;
 }
 
+.gameDL {
+    background-color: black;
+}
 #Portfolio {
     text-align: center;
     padding: 1rem 0;

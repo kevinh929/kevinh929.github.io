@@ -2,7 +2,7 @@
 
 .TSBGallery {
     display: none;
-    position: absolute;
+    position: relative;
     height: auto;
     opacity: 0;
     transition: opacity 1s ease-in-out;

@@ -49,16 +49,20 @@
     box-shadow: 2px 2px 4px skyblue;
 }
 
-#UpdateLink {
+#UpdateLink a{
     background-color: orange;
     border-radius: 5px;
-    color: black;
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-decoration: none;
     text-align: center;
     padding: 0.5rem 1rem;
+}
+
+#UpdateLink p {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-shadow: 2px 2px 4px orange;
+    width: 65%;
+    margin: 1rem auto;
 }
 
 #UpdateLink:hover {

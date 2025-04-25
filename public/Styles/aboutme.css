@@ -1,4 +1,25 @@
 .profileImage {
     max-width: 45%;
-    margin: 0 auto;
+    text-align: center;
+}
+
+#pageContent {
+    text-align: center;
+}
+
+#pageContent h2 {
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 2px 2px 4px skyblue;
+}
+
+#pageContent p {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: skyblue;
+    text-shadow: 2px 2px 4px orange;
+    width: 65%;
+    margin: 1rem auto;
 }

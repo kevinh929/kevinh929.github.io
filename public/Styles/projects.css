@@ -6,24 +6,27 @@
 }
 
 .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: none;
+    padding: 10px;
     cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
 }
 
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
+    right: 10px;
+}
 
   .prev:hover,
 .next:hover {

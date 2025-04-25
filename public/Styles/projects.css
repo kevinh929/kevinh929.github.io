@@ -5,18 +5,12 @@
     position: absolute;
     height: auto;
     opacity: 0;
-    transform: translate(100%);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 1s ease-in-out;
 }
 
 .TSBGallery.active {
+    display: block;
     opacity: 1;
-    transform: translate(0);
-}
-
-.TSBGallery.prev {
-    opacity: 0;
-    transform: translate(-100%);
 }
 
 #Portfolio {

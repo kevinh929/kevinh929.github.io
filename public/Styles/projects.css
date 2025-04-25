@@ -1,15 +1,17 @@
 /* Projects Page Specific Rules */
 
-#Portfolio{
+#Portfolio {
     text-align: center;
     padding: 1rem 0;
 }
-.example{
+
+.example {
     color: white;
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
 }
-.example p{
+
+.example p {
     width: 65%;
     margin: 0 auto;
 }

@@ -1,7 +1,8 @@
-html{
+html {
     max-height: 100%;
     max-width: 100%;
 }
+
 body {
     background-image: url('../images/orangecubicBG.jpg');
     color: white;
@@ -11,7 +12,7 @@ body {
 
 /* HR rules */
 
-hr{
+hr {
     border: 3px dashed orange;
     width: 75%;
     margin: 0 auto;
@@ -36,7 +37,7 @@ hr{
     text-shadow: 2px 2px 4px skyblue;
 }
 
-nav{
+nav {
     padding: 0.75rem;
     display: flex;
     background-color: #000000c2;
@@ -85,18 +86,19 @@ nav{
     text-align: center;
     transition: 0.5s ease;
 }
-.menuOffPage.active{
+
+.menuOffPage.active {
     top: 0;
 }
 
-.menuIcon{
+.menuIcon {
     height: 50px;
     width: 50px;
     position: fixed;
     background-color: #000000c2;
 }
 
-.headerFix{
+.headerFix {
     height: 50px;
     width: 50px;
     position: relative;
@@ -113,19 +115,24 @@ nav{
     transform: translate(-50%, -50%);
     transition: 0.5s ease;
 }
+
 .menuIcon span:nth-child(1) {
     top: 25%;
 }
+
 .menuIcon span:nth-child(3) {
     top: 75%;
 }
+
 .menuIcon.active span:nth-child(1) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
 }
+
 .menuIcon.active span:nth-child(2) {
     opacity: 0;
 }
+
 .menuIcon.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);

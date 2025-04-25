@@ -17,6 +17,10 @@
 .gameDL {
     background-color: black;
 }
+
+.DL {
+    margin: auto;
+}
 #Portfolio {
     text-align: center;
     padding: 1rem 0;

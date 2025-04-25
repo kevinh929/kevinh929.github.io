@@ -18,3 +18,54 @@
     width: 65%;
     margin: 1rem auto;
 }
+
+#Updates {
+    text-align: center;
+}
+
+#Updates h2 {
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 2px 2px 4px skyblue;
+}
+
+#Updates p {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: skyblue;
+    text-shadow: 2px 2px 4px orange;
+    width: 65%;
+    margin: 1rem auto;
+}
+
+#Updates img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px skyblue;
+}
+
+#UpdateLink {
+    background-color: orange;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+#UpdateLink:hover {
+    background-color: skyblue;
+    color: white;
+    text-shadow: 2px 2px 4px orange;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+    border-radius: 5px;
+    text-decoration: overline;
+}

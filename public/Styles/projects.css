@@ -3,65 +3,21 @@
 .TSBGallery {
     display: none;
     position: absolute;
-    width: 100%;
     height: auto;
     opacity: 0;
-    transition: opacity 1s ease-in-out;
+    transform: translate(100%);
+    transition: opacity 1s ease, transform 1s ease;
 }
 
 .TSBGallery.active {
-    display: block;
     opacity: 1;
+    transform: translate(0);
 }
 
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.5); 
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-    border-radius: 50%;
+.TSBGallery.prev {
+    opacity: 0;
+    transform: translate(-100%);
 }
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
-
-  .prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.numberdescr {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
 #Portfolio {
     text-align: center;

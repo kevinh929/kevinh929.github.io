@@ -2,7 +2,7 @@
 
 Main color #ED9121
 secondary #82CAFF
-tertiary #38686A
+tertiary #418183
 quaternary #0C090D
 quinary #EAF8BF
 
@@ -28,7 +28,7 @@ body {
 /* HR rules */
 
 hr {
-    border: 3px dashed #38686A;
+    border: 3px dashed #418183;
     width: 75%;
     margin: 1rem auto;
     border-radius: 5px;

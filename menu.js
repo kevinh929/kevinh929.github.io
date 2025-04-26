@@ -7,3 +7,10 @@ menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('active');
     
 });
+
+function toggleMenu() {
+    const menu = document.getElementById("navigation");
+    const menuIcon = document.querySelector(".menuIcon");
+    menu.classList.toggle("active");
+    menuIcon.classList.toggle("active");
+}

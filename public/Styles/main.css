@@ -47,6 +47,7 @@ hr {
     font-weight: bold;
     color: #ED9121;
     margin: auto;
+    padding-left: 2.5rem;
     text-shadow: 2px 2px 4px #82CAFF;
 }
 
@@ -180,6 +181,10 @@ nav {
 
     #navigation li {
         margin: 10px 0;
+    }
+
+    #menuOffPage {
+        width: 100%;
     }
 
     .menuIcon {

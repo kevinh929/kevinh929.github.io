@@ -115,6 +115,8 @@ nav {
     height: 50px;
     width: 50px;
     position: fixed;
+    cursor: pointer;
+    z-index: 1000;
 }
 
 .menuIcon span {
@@ -151,20 +153,6 @@ nav {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 /* Mobile Nav */
-.menuIcon {
-    display: none;
-    cursor: pointer;
-    z-index: 1000;
-}
-
-.menuIcon span {
-    display: block;
-    width: 30px;
-    height: 4px;
-    margin: 5px auto;
-    background-color: #ED9121;
-    transition: 0.3s ease;
-}
 
 @media (max-width: 768px) {
     #navigation {

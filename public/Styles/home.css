@@ -24,8 +24,8 @@ background #000000c2
 
 #Content p {
     font-size: 1.5rem;
-    color: #38686A;
-    text-shadow: 2px 2px 4px #EAF8BF;
+    color: #82CAFF;
+    text-shadow: 2px 2px 4px #38686A;
     width: 65%;
     margin: 1rem auto;
 }
@@ -44,8 +44,8 @@ background #000000c2
 
 #Updates p {
     font-size: 1.5rem;
-    color: #38686A;
-    text-shadow: 2px 2px 4px #EAF8BF;
+    color: #82CAFF;
+    text-shadow: 2px 2px 4px #38686A;
     width: 65%;
     margin: 1rem auto;
 }

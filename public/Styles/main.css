@@ -21,7 +21,7 @@ html {
 body {
     background-image: url('../images/orangecubicBG.jpg');
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Merriweather', serif;
     font-size: 1.5rem;
 }
 
@@ -46,7 +46,7 @@ hr {
 #pageHeader h1 {
     text-align: center;
     font-size: 3rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Unbounded', sans-serif;
     font-weight: bold;
     color: #ED9121;
     margin: auto;
@@ -80,7 +80,6 @@ nav {
     padding: 10px 20px;
     display: block;
     font-size: 1.8rem;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px;

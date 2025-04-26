@@ -183,11 +183,11 @@ nav {
         margin: 10px 0;
     }
 
-    #menuOffPage {
+    .menuOffPage {
         width: 100%;
     }
 
-    #menuOffPage.active {
+    .menuOffPage.active {
         width: 100%;
     }
 

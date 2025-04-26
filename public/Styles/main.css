@@ -155,12 +155,18 @@ nav {
 /* Mobile Nav */
 
 @media (max-width: 768px) {
+    #pageContainer {
+        width: 100%;
+    }
+
     #navigation {
-        display: none;
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: transform 0.5s ease, opacity 0.5s ease;
         flex-direction: column; 
-        background-color: #000000c2;
+        background-color: #000000;
         position: absolute;
-        top: 60px;
+        top: 0;
         right: 0;
         width: 100%;
         text-align: center;
@@ -168,7 +174,8 @@ nav {
     }
 
     #navigation.active {
-        display: flex; 
+        opacity: 1;
+        transform: translateY(0);
     }
 
     #navigation li {

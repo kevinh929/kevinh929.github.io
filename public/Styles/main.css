@@ -21,12 +21,6 @@ body {
     font-size: 1.5rem;
 }
 
-.headerFix {
-    height: 50px;
-    width: 50px;
-    position: relative;
-}
-
 /* HR rules */
 
 hr {
@@ -93,6 +87,12 @@ nav {
 #navigation a:hover {
     color: #82CAFF;
     text-shadow: 2px 2px 4px #ED9121;
+}
+
+.headerFix {
+    height: 50px;
+    width: 50px;
+    position: relative;
 }
 
 .menuOffPage {

@@ -33,6 +33,7 @@ hr {
     margin: 1rem auto;
     border-radius: 5px;
     box-shadow: 2px 2px 6px #ED9121;
+    opacity: 1;
 }
 
 /* Menu Stuff */

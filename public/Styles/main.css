@@ -1,10 +1,12 @@
 /* Main Color Palette
 
-Main color Orange
-secondary Skyblue
+Main color #ED9121
+secondary #82CAFF
+tertiary #38686A
+quaternary #0C090D
+quinary #EAF8BF
+
 background #000000c2
-
-
 
 */
 
@@ -26,11 +28,11 @@ body {
 /* HR rules */
 
 hr {
-    border: 3px dashed orange;
+    border: 3px dashed #0C090D;
     width: 75%;
     margin: 1rem auto;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px skyblue;
+    box-shadow: 2px 2px 4px #38686A;
 }
 
 /* Menu Stuff */
@@ -46,9 +48,9 @@ hr {
     font-size: 3rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: orange;
+    color: #ED9121;
     margin: auto;
-    text-shadow: 2px 2px 4px skyblue;
+    text-shadow: 2px 2px 4px #82CAFF;
 }
 
 nav {
@@ -74,7 +76,7 @@ nav {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: orange;
+    color: #ED9121;
     padding: 10px 20px;
     display: block;
     font-size: 1.8rem;
@@ -85,8 +87,8 @@ nav {
 }
 
 #navigation a:hover {
-    color: skyblue;
-    text-shadow: 2px 2px 4px orange;
+    color: #82CAFF;
+    text-shadow: 2px 2px 4px #ED9121;
 }
 
 .menuOffPage {
@@ -120,7 +122,7 @@ nav {
 .menuIcon span {
     height: 5px;
     width: 100%;
-    background-color: orange;
+    background-color: #ED9121;
     border-radius: 25px;
     position: absolute;
     top: 50%;

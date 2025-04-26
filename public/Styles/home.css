@@ -1,3 +1,15 @@
+/* Main Color Palette
+
+Main color #ED9121
+secondary #82CAFF
+tertiary #38686A
+quaternary #0C090D
+quinary #EAF8BF
+
+background #000000c2
+
+*/
+
 #Content {
     text-align: center;
 }
@@ -6,15 +18,15 @@
     font-size: 2.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: orange;
-    text-shadow: 2px 2px 4px skyblue;
+    color: #EAF8BF;
+    text-shadow: 2px 2px 4px #ED9121;
 }
 
 #Content p {
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
-    color: skyblue;
-    text-shadow: 2px 2px 4px orange;
+    color: #38686A;
+    text-shadow: 2px 2px 4px #EAF8BF;
     width: 65%;
     margin: 1rem auto;
 }
@@ -27,15 +39,15 @@
     font-size: 2.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: orange;
-    text-shadow: 2px 2px 4px skyblue;
+    color: #EAF8BF;
+    text-shadow: 2px 2px 4px #ED9121;
 }
 
 #Updates p {
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
-    color: skyblue;
-    text-shadow: 2px 2px 4px orange;
+    color: #38686A;
+    text-shadow: 2px 2px 4px #EAF8BF;
     width: 65%;
     margin: 1rem auto;
 }
@@ -45,14 +57,13 @@
     max-width: 600px;
     height: auto;
     margin: 1rem auto;
-    border-radius: 5px;
-    box-shadow: 2px 2px 4px skyblue;
+    border-radius: 10px;
 }
 
 #UpdateLink {
-    background-color: orange;
-    border-radius: 5px;
-    color: black;
+    background-color: #ED9121;
+    border-radius: 10px;
+    color: #0C090D;
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -62,8 +73,8 @@
 }
 
 #UpdateLink:hover {
-    background-color: skyblue;
-    color: white;
+    background-color: #82CAFF;
+    color: #EAF8BF;
     text-shadow: 2px 2px 4px orange;
     transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
     border-radius: 5px;

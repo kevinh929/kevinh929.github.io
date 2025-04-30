@@ -20,7 +20,7 @@ iframe {
 }
 
 .gameDL {
-    background-color: black;
+    background-color: #0c090d;
     border-radius: 10px;
 }
 
@@ -35,32 +35,24 @@ iframe {
 
 #Portfolio h2 {
     font-size: 2.5rem;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: orange;
-    text-shadow: 2px 2px 4px skyblue;
+    font-family: 'Unbounded', sans-serif;
+    color: #eaf8bf;
+    text-shadow: 2px 2px 4px #ED9121;
 }
 
 #Portfolio h3 {
     font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
-    color: skyblue;
-    text-shadow: 2px 2px 4px orange;
+    color: #eaf8bf;
+    text-shadow: 2px 2px 4px #ED9121;
 }
 
 #Portfolio p {
     font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    color: skyblue;
-    text-shadow: 2px 2px 4px orange;
+    color: #82CAFF;
+    text-shadow: 2px 2px 4px #52528C;
     width: 65%;
     margin: 1rem auto;
-}
-
-.example {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .example p {
@@ -70,18 +62,17 @@ iframe {
 
 #desc h2 {
     font-size: 2.5rem;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: orange;
-    text-shadow: 2px 2px 4px skyblue;
+    font-family: 'Unbounded', sans-serif;
+    color: #eaf8bf;
+    text-shadow: 2px 2px 4px #ED9121;
     text-align: center;
 }
 
 #desc p {
     font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    color: skyblue;
-    text-shadow: 2px 2px 4px orange;
+    color: #82CAFF;
+    text-shadow: 2px 2px 4px #52528C;
     width: 65%;
     margin: 1rem auto;
 }

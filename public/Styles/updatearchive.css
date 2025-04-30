@@ -1,20 +1,31 @@
+/* Main Color Palette
+
+Main color #ED9121
+secondary #82CAFF
+tertiary #52528C
+quaternary #0C090D
+quinary #EAF8BF
+
+background #000000c2
+
+*/
+
 #Archive {
     text-align: center;
 }
 
 #Archive h2 {
     font-size: 2.5rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Unbounded', sans-serif;
     font-weight: bold;
-    color: orange;
-    text-shadow: 2px 2px 4px skyblue;
+    color: #eaf8bf;
+    text-shadow: 2px 2px 4px #ED9121;
 }
 
 #Archive p {
     font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    color: skyblue;
-    text-shadow: 2px 2px 4px orange;
+    color: #82CAFF;
+    text-shadow: 2px 2px 4px #52528C;
     width: 65%;
     margin: 1rem auto;
 }
@@ -25,5 +36,5 @@
     height: auto;
     margin: 1rem auto;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px skyblue;
+    box-shadow: 2px 2px 4px #82CAFF;
 }

@@ -15,7 +15,7 @@ background #000000c2
     font-family: 'Unbounded', sans-serif;
     font-weight: bold;
     color: #EAF8BF;
-    text-shadow: 2px 2px 4px #ED9121;    
+    text-shadow: 2px 2px 4px #ED9121;
 }
 
 .CoMe p {
@@ -25,6 +25,7 @@ background #000000c2
     width: 65%;
     margin: 1rem auto;
 }
+
 .CoMe img {
     width: 100%;
     max-width: 600px;
@@ -32,6 +33,7 @@ background #000000c2
     margin: 1rem auto;
     border-radius: 10px;
 }
+
 .CoMe ul {
     list-style-type: none;
     padding: 0;
@@ -40,6 +42,9 @@ background #000000c2
     font-size: 1.5rem;
     color: #82CAFF;
     text-shadow: 2px 2px 4px #52528C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .CoMe ul li {
@@ -48,18 +53,27 @@ background #000000c2
     background-color: #0C090D;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #ED9121;
+    flex: 1 1 auto;
+    max-width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .CoMe ul li:hover {
     background-color: #82CAFF;
     color: #0C090D;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .CoMe ul li a {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
 }
+
 .CoMe ul li a:hover {
     text-decoration: underline;
     color: #EAF8BF;

@@ -37,11 +37,11 @@ background #000000c2
     border-radius: 10px;
 }
 
-.CoMe ul {
+.contactList {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: center;
     font-size: 1.5rem;
     color: #82CAFF;
     text-shadow: 2px 2px 4px #52528C;
@@ -50,7 +50,7 @@ background #000000c2
     justify-content: space-around;
 }
 
-.CoMe ul li {
+.contactList li {
     margin: 0.5rem 0;
     padding: 0.5rem;
     background-color: #0C090D;
@@ -64,7 +64,7 @@ background #000000c2
     justify-content: center;
 }
 
-.CoMe ul li:hover {
+.contactList li:hover {
     background-color: #82CAFF;
     color: #0C090D;
     cursor: pointer;
@@ -74,31 +74,45 @@ background #000000c2
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.CoMe ul li a {
+.contactList li a {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
 }
 
-.CoMe ul li a:hover {
+.contactList li a:hover {
     text-decoration: underline;
     color: #EAF8BF;
     text-shadow: 2px 2px 4px orange;
     transition: text-decoration 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
 }
 
-.CoMe .row img:hover {
+.socials {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.socials li {
+    box-shadow: 2px 2px 4px #ED9121;
+    flex: 1 1 auto;
+    max-width: 275px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li:hover {
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
     transform: scale(1.05);
     box-shadow: 4px 4px 8px #ED9121;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.socials ul li {
-    background-color: none;
-    margin: none;
-    padding: none;
-    border-radius: none;
-    
 }
 
 .row{

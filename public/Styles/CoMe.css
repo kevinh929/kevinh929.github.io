@@ -123,6 +123,7 @@ background #000000c2
 
 .twitch {
     padding: 1rem 0;
+    max-width: 65%;
 }
 
 @media (max-width: 768px) {
@@ -157,5 +158,8 @@ background #000000c2
     .menuOffPage ul {
         padding: 0;
         margin: 0;
+    }
+    .twitch {
+        max-width: 80%;
     }
 }

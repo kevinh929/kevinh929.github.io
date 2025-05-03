@@ -20,7 +20,7 @@ body {
     font-family: 'Merriweather', sans-serif;
     font-size: 1.5rem;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 200% 200%; /* Ensure the background is large enough to repeat smoothly */
     background-position: 0 0;
     animation: moveBackground 10s linear infinite; /* Correctly apply animation */
 }
@@ -195,6 +195,6 @@ nav {
         background-position: 0 0;
     }
     100% {
-        background-position: 100% 200%; /* Moves diagonally to the right */
+        background-position: 100% 100%; /* Moves diagonally to the right */
     }
 }

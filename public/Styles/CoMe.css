@@ -48,7 +48,6 @@ background #000000c2
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 80%;
 }
 
 .CoMe ul li {
@@ -103,11 +102,11 @@ background #000000c2
 }
 
 .socials {
-    max-width: 90%;
     padding: 1rem 0;
 }
 
 .socials img {
+    max-width: 90%;
     height: auto;
     margin: 1rem auto;
     border-radius: 0;

@@ -76,8 +76,3 @@ iframe {
     width: 65%;
     margin: 1rem auto;
 }
-
-nav {
-    z-index: 1000; /* Ensures the navbar stays above other elements */
-    position: relative; /* Required for z-index to work */
-}

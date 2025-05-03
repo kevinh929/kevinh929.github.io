@@ -91,9 +91,8 @@ background #000000c2
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-nav {
-    /* Ensure the navbar fits within the viewport */
-    overflow-x: hidden;
+.row{
+    --bs-gutter-x: 0rem;
 }
 
 @media (max-width: 768px) {

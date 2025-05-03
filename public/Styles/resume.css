@@ -32,7 +32,7 @@ body {
 }
 
 #resumeContent ul {
-    list-style-type: none;
+    list-style-type: none; /* Remove default bullets */
     padding: 0;
     margin: 1rem auto;
     text-align: left;
@@ -41,6 +41,16 @@ body {
 
 #resumeContent ul li {
     margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem; /* Add space for the dash */
+}
+
+#resumeContent ul li::before {
+    content: "-"; /* Add dash before each list item */
+    position: absolute;
+    left: 0;
+    color: #ED9121; /* Match the theme color */
+    font-weight: bold;
 }
 
 #resumeContent p {

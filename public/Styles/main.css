@@ -22,7 +22,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
-    animation: moveBackground 30s linear infinite; /* Correctly apply animation */
+    animation: moveBackground 10s linear infinite; /* Correctly apply animation */
 }
 
 /* HR rules */
@@ -195,6 +195,6 @@ nav {
         background-position: 0 0;
     }
     100% {
-        background-position: 200% 200%; /* Moves diagonally to the right */
+        background-position: 100% 200%; /* Moves diagonally to the right */
     }
 }

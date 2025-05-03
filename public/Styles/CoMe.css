@@ -93,6 +93,14 @@ background #000000c2
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.socials ul li {
+    background-color: none;
+    margin: none;
+    padding: none;
+    border-radius: none;
+    
+}
+
 .row{
     --bs-gutter-x: 0rem;
 }

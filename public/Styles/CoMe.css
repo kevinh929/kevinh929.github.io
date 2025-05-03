@@ -25,6 +25,8 @@ background #000000c2
     text-shadow: 2px 2px 4px #52528C;
     width: 65%;
     margin: 1rem auto;
+    text-align: center;
+    line-height: 1.6;
 }
 
 .CoMe img {
@@ -95,6 +97,14 @@ background #000000c2
     --bs-gutter-x: 0rem;
 }
 
+.twitch {
+    padding: 1rem 0;
+}
+
+.socials {
+    padding: 1rem 0;
+}
+
 @media (max-width: 768px) {
     .CoMe ul {
         flex-direction: column;
@@ -122,8 +132,6 @@ background #000000c2
 
     nav {
         width: 100%;
-        padding: 0;
-        margin: 0;
     }
 
     .menuOffPage ul {

@@ -101,17 +101,6 @@ background #000000c2
     padding: 1rem 0;
 }
 
-.socials {
-    padding: 1rem 0;
-}
-
-.socials img {
-    max-width: 90%;
-    height: auto;
-    margin: 1rem auto;
-    border-radius: 0;
-}
-
 @media (max-width: 768px) {
     .CoMe ul {
         flex-direction: column;

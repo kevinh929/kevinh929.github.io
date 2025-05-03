@@ -1,0 +1,74 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #000000c2;
+    color: #EAF8BF;
+    line-height: 1.6;
+}
+
+#resumeContent {
+    text-align: center;
+    padding: 2rem;
+}
+
+#resumeContent h2 {
+    font-size: 2.5rem;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: bold;
+    color: #EAF8BF;
+    text-shadow: 2px 2px 4px #ED9121;
+}
+
+#resumeContent h3 {
+    font-size: 2rem;
+    color: #82CAFF;
+    text-shadow: 2px 2px 4px #52528C;
+    margin-top: 1rem;
+}
+
+#resumeContent .date {
+    font-size: 1rem;
+    color: #ED9121;
+    font-style: italic;
+}
+
+#resumeContent ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem auto;
+    text-align: left;
+    width: 75%;
+}
+
+#resumeContent ul li {
+    margin-bottom: 0.5rem;
+}
+
+#resumeContent p {
+    font-size: 1.5rem;
+    color: #82CAFF;
+    text-shadow: 2px 2px 4px #52528C;
+    margin: 1rem auto;
+    width: 75%;
+}
+
+.resumeDownloadButton {
+    background-color: #ED9121;
+    border-radius: 10px;
+    color: #0C090D;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.resumeDownloadButton:hover {
+    background-color: #82CAFF;
+    color: #EAF8BF;
+    text-shadow: 2px 2px 4px orange;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+    border-radius: 5px;
+    text-decoration: underline;
+}

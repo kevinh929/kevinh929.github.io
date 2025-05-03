@@ -20,9 +20,9 @@ body {
     font-family: 'Merriweather', sans-serif;
     font-size: 1.5rem;
     background-attachment: fixed;
-    background-size: 150% 150%; /* Ensure the background is large enough to repeat smoothly */
+    background-size: 150% 150%;
     background-position: 0 0;
-    animation: moveBackground 20s linear infinite; /* Correctly apply animation */
+    animation: moveBackground 20s linear infinite;
 }
 
 /* HR rules */

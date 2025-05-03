@@ -78,3 +78,11 @@ iframe {
     width: 65%;
     margin: 1rem auto;
 }
+
+h2 .titleDes {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #eaf8bf;
+    text-shadow: 2px 2px 4px #ED9121;
+}

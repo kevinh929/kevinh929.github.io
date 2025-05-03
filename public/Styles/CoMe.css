@@ -48,6 +48,7 @@ background #000000c2
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    max-width: 80%;
 }
 
 .CoMe ul li {

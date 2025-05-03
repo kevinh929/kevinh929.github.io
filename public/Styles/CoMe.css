@@ -69,7 +69,7 @@ background #000000c2
     color: #0C090D;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
-    transform: scale(1.05);
+    transform: scale(1.1);
     box-shadow: 4px 4px 8px #ED9121;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -114,6 +114,7 @@ background #000000c2
 .socials li img:hover, .twitch img:hover {
     box-shadow: 4px 4px 12px #82CAFF;
     transition: box-shadow 0.3s ease;
+    transform: scale(1.1);
 }
 
 .row{

@@ -20,9 +20,10 @@ body {
     font-family: 'Merriweather', sans-serif;
     font-size: 1.5rem;
     background-attachment: fixed;
-    background-size: 150% 150%;
+    background-size: auto; /* Ensure the image repeats */
+    background-repeat: repeat;
     background-position: 0 0;
-    animation: moveBackground 20s linear infinite;
+    overflow-x: hidden; /* Prevent horizontal scroll due to parallax */
 }
 
 /* HR rules */
@@ -186,14 +187,5 @@ nav {
 
     .menuIcon {
         display: block; 
-    }
-}
-
-@keyframes moveBackground {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 50% 100%;
     }
 }

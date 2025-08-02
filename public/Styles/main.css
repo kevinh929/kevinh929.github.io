@@ -45,6 +45,13 @@ hr {
     padding-bottom: 0.5rem;
 }
 
+#liveBanner{
+    display: none;
+}
+#liveBanner.active{
+    display: block;
+}
+
 #pageHeader h1 {
     text-align: center;
     font-size: 3rem;

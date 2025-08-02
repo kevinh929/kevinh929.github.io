@@ -47,6 +47,12 @@ hr {
 
 #liveBanner{
     display: none;
+    background-color: #ed912181;
+    text-align: center;
+    animation-name: bannerL2R;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 #liveBanner.active{
     display: block;
@@ -154,6 +160,25 @@ nav {
 .menuIcon span:nth-child(3) {
     top: 75%;
 }
+
+.liveBannerText{
+    color: rgb(0, 120, 175);
+    font-size: 1.5rem;
+}
+
+.circle{
+    color: red;
+}
+
+@keyframes bannerL2R{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translate(100%);
+    }
+}
+
 /* Mobile Nav */
 
 @media (max-width: 768px) {

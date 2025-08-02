@@ -160,8 +160,8 @@ nav {
     color: rgb(0, 120, 175);
     font-size: 1.5rem;
     animation-name: bannerL2R;
-    animation-duration: 4s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 6s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 

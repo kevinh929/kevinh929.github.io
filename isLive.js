@@ -1,6 +1,6 @@
 async function checkIfLive(username) {
     try{
-        const response = await fetch("https://twitch.tv/${username}");
+        const response = await fetch(`https://twitch.tv/${username}`);
         const sourcecode = await response.text();
 
         if (sourcecode.includes("isLiveBroadcast")) {

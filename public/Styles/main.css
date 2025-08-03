@@ -45,14 +45,6 @@ hr {
     padding-bottom: 0.5rem;
 }
 
-#liveBanner{
-    display: none;
-    background-color: #ed912181;
-}
-#liveBanner.active{
-    display: block;
-}
-
 #pageHeader h1 {
     text-align: center;
     font-size: 3rem;
@@ -154,38 +146,6 @@ nav {
 
 .menuIcon span:nth-child(3) {
     top: 75%;
-}
-
-.liveBannerText{
-    color: rgb(0, 120, 175);
-    font-size: 1.5rem;
-    text-shadow: 1px 1px 4px black;
-    animation-name: bannerL2R;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-.colorShift {
-    animation: colorShiftText 1.5s infinite alternate;
-}
-
-@keyframes colorShiftText {
-    from {
-        color: rgb(0, 120, 175);
-    }
-    to{
-        color: #bd0000;
-    }
-}
-
-@keyframes bannerL2R{
-    from {
-        transform: translateX(-55%);
-    }
-    to {
-        transform: translate(100%);
-    }
 }
 
 /* Mobile Nav */

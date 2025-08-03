@@ -151,10 +151,11 @@ nav {
 .twitchEmbed{
     width: 80%;
     text-align: center;
+    margin: 0 auto;
+    display: block;
 }
 
 #footer {
-    background-color: #000000c2;
     color: #82CAFF;
     text-align: center;
     padding: 1rem;

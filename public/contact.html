@@ -62,16 +62,33 @@
                     <li><a href="https://steamcommunity.com/id/Broncodolphin/" target="_blank"><img src="images/53.png"
                                 alt="steam" class="img-fluid"></a></li>
                 </ul>
-                <div class="twitch">
-                    <a href="https://www.twitch.tv/broncodolphin" target="_blank">
-                        <img src="images/OrangeTwitch.jpg" alt="Twitch" class="img-fluid">
-                    </a>
-                </div>
+                <div id="twitch-embed" class="twitchEmbed"></div>
                 <hr />
+            </div>
+            <div id="footer">
+                <p>Kevin Hoagland &copy; 2025</p>
+                <p>All rights reserved.</p>
+                <p>Website created by Kevin Hoagland</p>
+                <p>Last updated: 08/03/2025</p>
             </div>
         </div>
         <script src="../menu.js" defer></script>
         <script src="../AnimBG.js" defer></script>
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <script type="text/javascript">
+            var embed = new Twitch.Embed("twitch-embed", {
+                width: 854,
+                height: 480,
+                channel: "Broncodolphin",
+                layout: "video",
+                autoplay: false,
+            });
+
+            embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+                var player = embed.getPlayer();
+                player.play();
+            });
+        </script>
 </body>
 
 </html>

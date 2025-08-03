@@ -108,11 +108,7 @@ background #000000c2
     display: block;
 }
 
-.twitch img {
-    border-radius: 10px;
-}
-
-.socials li img:hover, .twitch img:hover {
+.socials li img:hover {
     box-shadow: 4px 4px 12px #82CAFF;
     transition: box-shadow 0.3s ease;
     transform: scale(1.1);
@@ -120,16 +116,6 @@ background #000000c2
 
 .row{
     --bs-gutter-x: 0rem;
-}
-
-.twitch {
-    padding: 1rem 0;
-    max-width: 65%;
-    text-align: center;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media (max-width: 768px) {

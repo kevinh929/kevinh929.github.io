@@ -14,7 +14,7 @@ async function checkIfLive(username) {
         console.error("Error fetching data:", error);
     }
 }
-let username = "broncodolphin"
+let username = "August"
 checkIfLive(username);
 
 function liveToggle() {

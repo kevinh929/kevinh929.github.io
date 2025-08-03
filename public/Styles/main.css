@@ -161,13 +161,13 @@ nav {
     font-size: 1.5rem;
     text-shadow: 1px 1px 4px black;
     animation-name: bannerL2R;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
 .colorShift {
-    animation: colorShiftText 3s infinite alternate;
+    animation: colorShiftText 1.5s infinite alternate;
 }
 
 @keyframes colorShiftText {

@@ -148,6 +148,20 @@ nav {
     top: 75%;
 }
 
+.twitchEmbed{
+    width: 80%;
+    text-align: center;
+}
+
+#footer {
+    background-color: #000000c2;
+    color: #82CAFF;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
 /* Mobile Nav */
 
 @media (max-width: 768px) {

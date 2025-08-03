@@ -43,11 +43,6 @@
                 <div class="headerFix"></div>
             </nav>
         </div>
-        <div id="liveBanner">
-            <div class="liveBannerText">
-                <p class="colorShift">I Am Currently Live! Twitch.tv/broncodolphin</p>
-            </div>
-        </div>
         <div id="Content">
             <h2>Welcome to my Website!</h2>
             <hr />
@@ -73,11 +68,32 @@
             <p class="Descriptor">Update: 05/03/2025</p>
             <hr />
             <a href="updatearchive.html" id="UpdateLink">See all Old Posts</a>
+        </div> 
+        <div id="twitch-embed"></div>
+        <div id="footer">
+            <p>Kevin Hoagland &copy; 2025</p>
+            <p>All rights reserved.</p>
+            <p>Website created by Kevin Hoagland</p>
+            <p>Last updated: 08/03/2025</p>
         </div>
     </div>
     <script src="../menu.js" defer></script>
     <script src="../AnimBG.js" defer></script>
-    <script src="../isLive.js" defer></script>
 </body>
+
+<script type="text/javascript">
+    var embed = new Twitch.Embed("twitch-embed", {
+      width: 854,
+      height: 480,
+      channel: "Broncodolphin",
+      layout: "video",
+      autoplay: false,
+    });
+
+    embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+      var player = embed.getPlayer();
+      player.play();
+    });
+  </script>
 
 </html>
